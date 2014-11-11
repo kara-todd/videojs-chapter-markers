@@ -1,0 +1,32 @@
+.vjs-chapter-marker {
+  position: absolute;
+  top:0;
+  height: 100%;
+  cursor: pointer;
+}
+.vjs-chapter-marker:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0.15em;
+  left: 0;
+  width: 0.75em;
+  height: 0.75em;
+  border:1px solid #000;
+  border-radius: 1em;
+  background: #666;
+  cursor: pointer;
+}
+
+.vjs-chapter-marker-title {
+  display: none;
+  position: relative;
+  top: -2.5em;
+  text-align: center;
+  left: -48%;
+  padding: 0.25em 0.5em;
+  background: rgba(80,80,80, 0.8);
+}
+.vjs-chapter-marker:hover .vjs-chapter-marker-title {
+  display: inline-block;
+}
